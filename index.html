@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bravo Apps | Shopify App Development</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .header {
+            background-color: #fff;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            color: #004c3f;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .header p {
+            color: #666;
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .apps-container {
+            max-width: 1200px;
+            margin: 4rem auto;
+            padding: 0 2rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .app-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease;
+        }
+
+        .app-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .app-card h2 {
+            color: #004c3f;
+            margin-bottom: 1rem;
+        }
+
+        .app-card p {
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background-color: #004c3f;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: background-color 0.2s ease;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #003d32;
+        }
+
+        .button.disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #fff;
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Bravo Apps</h1>
+        <p>Building powerful solutions for Shopify merchants</p>
+    </header>
+
+    <main class="apps-container">
+        <div class="app-card">
+            <h2>Bravo Blog</h2>
+            <p>Create shoppable blog posts with ease. Features AI-powered suggestions, product embedding, and SEO
+                optimization tools to help you create engaging content that converts.</p>
+            <a href="https://apps.shopify.com/bravoblog" class="button">Visit App</a>
+        </div>
+
+        <div class="app-card">
+            <h2>AffiliTrak</h2>
+            <p>Advanced affiliate tracking and management solution for Shopify stores. Manage your affiliate program
+                with ease and grow your business through partnerships.</p>
+            <span class="button disabled">Coming Soon</span>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Bravo Apps. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
