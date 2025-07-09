@@ -4,159 +4,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bravo Apps | Shopify App Development</title>
-    <link rel="icon" type="image/png" href="/BravoAppsFaviconSmall.png">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-        }
-
-        body {
-            background-color: #f5f5f5;
-            color: #333;
-            line-height: 1.6;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        .header {
-            background-color: #fff;
-            padding: 2rem;
-            text-align: center;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            width: 100%;
-        }
-
-        .header h1 {
-            color: #004c3f;
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .header p {
-            color: #666;
-            font-size: 1.2rem;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        .apps-container {
-            max-width: 1200px;
-            margin: 4rem auto;
-            padding: 0 2rem;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-
-        .app-card {
-            background: #fff;
-            border-radius: 12px;
-            padding: 2rem;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: transform 0.2s ease;
-        }
-
-        .app-card:hover {
-            transform: translateY(-5px);
-        }
-
-        .app-card h2 {
-            color: #004c3f;
-            margin-bottom: 1rem;
-        }
-
-        .app-card p {
-            color: #666;
-            margin-bottom: 1.5rem;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 0.8rem 1.5rem;
-            background-color: #004c3f;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            transition: background-color 0.2s ease;
-            cursor: pointer;
-        }
-
-        .button:hover {
-            background-color: #003d32;
-        }
-
-        .button.disabled {
-            background-color: #ccc;
-            cursor: not-allowed;
-        }
-
-        footer {
-            text-align: center;
-            padding: 2rem;
-            background-color: #fff;
-            margin-top: 4rem;
-            width: 100%;
-            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .app-card img {
-            width: 150px;
-            height: 150px;
-            object-fit: contain;
-            margin: 0 auto 1.5rem auto;
-            border-radius: 12px;
-            display: block;
-        }
-
-        h1,
-        h2 {
-            color: #333;
-        }
-
-        .last-updated {
-            color: #666;
-            font-style: italic;
-        }
-    </style>
+    <title>Affilitrak | Shopify Affiliate Marketing App</title>
+    <link rel="icon" type="image/png" href="/BravoAppsFavicon.png">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header class="header">
-        <h1>Bravo Apps</h1>
-        <p>Building powerful solutions for Shopify merchants</p>
+        <div class="header-content">
+            <h1>Affilitrak</h1>
+            <p class="subtitle">Track referrals, create referral links and coupons, manage affiliates, grow your
+                affiliate network</p>
+            <p class="tagline">Simple to use affiliate marketing for Shopify stores</p>
+        </div>
     </header>
 
-    <main class="apps-container">
+    <main class="main-container">
         <div class="app-card">
-            <img src="https://cdn.shopify.com/s/files/1/0830/0947/0774/files/BetterBlogAppIconOutline_42d5ee5a-b5ad-40be-baf6-f78d02c35d25.png?v=1736734211"
-                alt="Bravo Blog Logo">
-            <h2>Bravo Blog</h2>
-            <p>Create shoppable blog posts with ease. Features AI-powered suggestions, product embedding, and SEO
-                optimization tools to help you create engaging content that converts.</p>
-            <a href="https://apps.shopify.com/bravoblog" class="button">Visit App</a>
-        </div>
+            <div class="app-header">
+                <img src="https://cdn.shopify.com/s/files/1/0830/0947/0774/files/AffilitrakLogo1.jpg?v=1736734050"
+                    alt="Affilitrak Logo">
+                <div class="app-title-section">
+                    <h2>Affilitrak</h2>
+                    <p class="app-subtitle">Affiliate Marketing Made Simple</p>
+                </div>
+            </div>
 
-        <div class="app-card">
-            <img src="https://cdn.shopify.com/s/files/1/0830/0947/0774/files/AffilitrakLogo1.jpg?v=1736734050"
-                alt="AffiliTrak Logo">
-            <h2>AffiliTrak</h2>
-            <p>Advanced affiliate tracking and management solution for Shopify stores. Manage your affiliate program
-                with ease and grow your business through partnerships.</p>
-            <span class="button disabled">Coming Soon</span>
-            <a href="affilitrak/privacy-policy.html" style="display: block; margin-top: 1rem; color: #004c3f;">Privacy
-                Policy</a>
-            <a href="affilitrak/user-agreement.html" style="display: block; margin-top: 1rem; color: #004c3f;">User
-                Agreement</a>
+            <div class="app-description">
+                <p>Affilitrak is a simple to use affiliate marketing app that allows you to easily onboard new
+                    affiliates, pay commissions automatically, and let affiliates manage their own programs. Affiliates
+                    can create their own links and coupon codes and Affilitrak seamlessly tracks referrals and
+                    commissions.</p>
+
+                <p>The app is made to be simple to learn and "just work". Features like tiers and automatic logic make
+                    the app hands off and convenient.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-item">
+                    <h3>Custom Commission Logic</h3>
+                    <p>Create custom complex commission logic or use simple flat commissions that work for your business
+                        model</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Smart Tracking</h3>
+                    <p>Track referrals through coupons or links and let affiliates make their own codes automatically
+                    </p>
+                </div>
+                <div class="feature-item">
+                    <h3>Automated Payments</h3>
+                    <p>Pay affiliates automatically with PayPal or manually log payments with full transaction history
+                    </p>
+                </div>
+                <div class="feature-item">
+                    <h3>Multi-Level Marketing</h3>
+                    <p>Setup a custom multi-level marketing program with advanced tier structures and rewards</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Background Automation</h3>
+                    <p>Automate processes so your affiliate program can run in the background without constant
+                        management</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Easy Onboarding</h3>
+                    <p>Simple affiliate onboarding process that gets your partners selling quickly and efficiently</p>
+                </div>
+            </div>
+
+            <div class="cta-section">
+                <a href="https://apps.shopify.com/affilitrak" class="button" target="_blank">Get Affilitrak on
+                    Shopify</a>
+            </div>
+
+            <div class="links-section">
+                <a href="affilitrak/privacy-policy.html" class="policy-link">Privacy Policy</a>
+                <a href="affilitrak/user-agreement.html" class="policy-link">User Agreement</a>
+            </div>
         </div>
     </main>
 
     <footer>
-        <p>&copy; 2025 Bravo Apps. All rights reserved.</p>
+        <div class="footer-content">
+            <p>&copy; 2025 Bravo Apps. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 
